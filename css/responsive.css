@@ -1,0 +1,127 @@
+@media(max-width:500px){
+
+    /* ------------------
+           全体構造
+    ------------------ */
+
+    /* 幅調整（横スクロールバーを消す） */
+    .content {
+        width: auto;
+      }
+      header .inner {
+        width: auto;
+      }
+      main {
+        width: auto;
+      }
+    /* コンテンツ(左右配置を取り除く) */
+    .content {
+        display: block;
+        }
+      /* カードデザイン */
+        main .card {
+          display: block;
+          text-align: center;
+  
+        }
+        main .card img {
+          margin-bottom: 20px;
+          margin-right: 0;
+        }
+        
+        main .card .desc {
+          text-align: center;
+          width: auto;
+        }
+  
+        
+      /* ------------------
+  　　　　　ヘッダー
+　　　------------------ */
+
+      header nav.pc-nav{
+          display: none;
+      }
+
+      /* ------------------
+  　　　　　　メイン
+　　　------------------ */
+
+
+      main{
+          margin-bottom: 60px;
+      }
+      .others main{
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+
+     /* ------------------
+  　　　　　　サイド
+　　　------------------ */
+
+
+      aside {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+      }
+      
+
+     /* ------------------
+  　　　　　　フッター
+　　　------------------ */
+
+      footer small br{
+        display: inline;
+      }
+
+      /* ------------------
+        　トップページ
+      ------------------ */
+
+      #home main h2 {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      #home main p {
+        margin-left: 10px;
+        margin-right: 10px;
+
+      }
+
+
+
+      /* ハンバーガーメニュー */
+
+      .hamburger-button path {
+        fill: red;
+      }
+      .hamburger-button {
+        display: flex;
+      }
+      /* メニューボタン */
+      .hamburger-button {
+        background-color: transparent;
+        top: 60px;
+        right: 30px;
+      }
+      /* アイコン */
+      .hamburger-button svg {
+        width: 50px;
+        height: 50px;
+      }
+
+      /* ナビゲーション */
+      .hamburger-nav {
+        height: 100%;
+      }
+      .hamburger-nav li{
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+      }
+      
+      
+      
+}
